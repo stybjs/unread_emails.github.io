@@ -18,7 +18,6 @@
     <div class="email-wrapper wrapper">
       <div class="row align-items-stretch">
 
-        <!-- SIDEBAR -->
         <div class="mail-sidebar d-none d-lg-block col-md-2 pt-3 bg-white">
           <div class="menu-bar">
             <ul class="menu-items">
@@ -62,7 +61,7 @@
             </div>
           </div>
 
-          <div class="mail-list" data-id="1">
+          <div class="mail-list" message_id="1">
             <div class="form-check"></div>
             <div class="content">
               <p class="sender-name">To: Adrian Cross</p>
@@ -73,11 +72,11 @@
             </div>
           </div>
 
-          <div class="mail-list" data-id="2">
+          <div class="mail-list" message_id="2">
             <div class="form-check"></div>
             <div class="content">
-              <p class="sender-name">To: Rowan Pike</p>
-              <p class="message_text">I noticed a small...</p>
+              <p class="sender-name">To: Ria Callow</p>
+              <p class="message_text">Trust me, I learned...</p>
             </div>
             <div class="details">
               <i class="mdi mdi-star-outline"></i>
@@ -99,8 +98,10 @@
 <script>
       const emailData = {
   1: {
-    sender: "Adrian Cross",
-    email: "across1130@tmail.com",
+    sender: "Riley",
+    email: "rileymartin@arcturus-corp.com",
+    recipient: "across1130@tmail.com",
+    subject: "Apology",
     subject: "Apology",
     body: `
     I am sorry for not able to be there. If you find this message then I am alive and sound well.<br><br>
@@ -113,8 +114,21 @@
       `,
   },
     2: {
-        sender: "Rowan Pike",
-        email: "
+    sender: "Riley",
+    email: "rileymartin@arcturus-corp.com",
+    recipient: "ria.callow@arcturus-corp.com",
+    subject: "Emergency - Please Read",
+    body: `
+    Ria,<br><br>
+    Trust me, I learned something....a terrifying one. Someone caught me snooping around the restricted files. They are onto us.<br><br>
+
+    If something happens to me, do not tell anyone about this. Go find Adrian Cross. You will know once you meet them.
+    Do not trust anyone even if it is your colleagues. No one is safe as long as we are under surveillance.<br><br>
+
+    Be careful,<br><br>
+    Adrian
+        `,
+    },
 };
 
   const mailItems = document.querySelectorAll(".mail-list");
@@ -129,23 +143,16 @@
 
       item.classList.add("active");
 
-      const id = item.getAttribute("data-id");
+      const id = item.getAttribute("message_id");
       const email = emailData[id];
 
       readingPane.innerHTML = `
       <div class="p-4">
         <h4>${email.subject}</h4>
         <p><strong>From:</strong> ${email.sender} &lt;${email.email}&gt;</p>
+        <p><strong>To:</strong> ${email.recipient}</p>
         <hr>
         <p>${email.body}</p>
-
-        ${email.attachment ? `
-          <hr>
-          <p><strong>Attachment:</strong></p>
-          <a href="${email.attachment}" download="${email.attachmentName}" class="btn btn-outline-primary">
-            <i class="mdi mdi-download"></i> Download File
-          </a>
-        ` : ""}
       </div>
     `;
     });
