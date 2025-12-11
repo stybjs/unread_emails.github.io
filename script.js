@@ -398,19 +398,7 @@
         <p><strong>From:</strong> ${email.sender} &lt;${email.email}&gt;</p>
         <hr>
         <p>${email.body}</p>
-
-        ${email.attachment ? `
-          <hr>
-          <p><strong>Attachment:</strong></p>
-
-          <iframe src="${email.attachment}" width="100%" height="500px"></iframe>
-
-        ` : ""}
       </div>
     `;
     });
   });
-
-          //   <a href="${email.attachment}" download="${email.attachmentName}" class="btn btn-outline-primary">
-          //   <i class="mdi mdi-download"></i> Download File
-          // </a>
