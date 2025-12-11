@@ -4,9 +4,7 @@
     email: "tessa.rowe@wellmind-consulting.com",
     subject: "Follow-up Appointment",
     body: `
-            Hi Riley, 
-	<br>
-		<br>
+            Hi Riley, <br><br>
             I hope this message finds you well. I am concerned about the last several sessions you missed and I would
             like to remind you that you need to attend your sessions at this month.<br><br>
 
@@ -41,7 +39,7 @@
     subject: "Lunch Tomorrow?",
     body: `
             Hey! Haven’t seen you around much this week, is everything okay? <br><br>
-            I was going to ask you if you wanted to grab lunch tomorrow like we planned.  <br><br>
+            I was going to ask you if you wanted to grab lunch tomorrow like we planned. <br><br>
             If you are busy, no worries! You can always find me in my favorite break spot! <br><br>
             Text me if that’s easier. <br><br>
             -Ria
@@ -118,13 +116,13 @@
     You also mentioned your need for medication. I am afraid not since I am not a psychiatrist. <br><br>
 
     Let me know how you're doing. I'm really worried about you. You can always ask for my referral to obtain medication. 
-    Please remember that your discussion is significant.
+    Please remember that your discussion is significant.<br><br>
 
     Please let me know how you're doing and I am really worrying about you. 
     You have not responded to emails, even my calls. You can always contact my office, 
-    they can assist you to schedule your session. 
+    they can assist you to schedule your session. <br><br>
     
-    Please at least let me know you sound safe, okay?
+    Please at least let me know you sound safe, okay? <br><br>
 
     Take care,<br><br>
     Dr. Tessa Rowe
@@ -142,7 +140,7 @@
 
     The request was submitted through your account early this morning.
     Here’s a reminder to keep your new card secured at all times and report any unusual activity immediately.<br><br>
-    Please note that your request for a replacement employee ID card has been recorded. Your limit of requests for this is up to 2 per year.
+    Please note that your request for a replacement employee ID card has been recorded. Your limit of requests for this is up to 2 per year. <br><br>
     
     If you have any questions or have concerns with using your employee card, please do not hesitate to contact our Arcturus Security team. <br><br>
     
@@ -156,13 +154,13 @@
     subject: "Team invitation?",
     body: `
       It’s crazy that somebody in our team was accused of leaking confidential information, even when they are innocent. 
-      I guess some people can be innocent while hiding evil intentions. Our company treats us pretty well, so why do they do that?
+      I guess some people can be innocent while hiding evil intentions. Our company treats us pretty well, so why do they do that? <br><br>
 
-      Anyways, do you remember the senior guy we saw? They will join our team night dinner, if you are interested. Let me know! 
+      Anyways, do you remember the senior guy we saw? They will join our team night dinner, if you are interested. Let me know! <br><br>
 
       I know you have marriage issues. You shouldn’t bring your personal issues into our workplace.  
       Why don’t you divorce them? I mean they are pretty bad. They should be understandable about your work. 
-      Wouldn't it be better if you told them the truth?
+      Wouldn't it be better if you told them the truth? <br><br>
       
       Ah, I gotta work on my assignment since it is overdue!!! Message me later when you get off work! <br><br>
       
@@ -176,9 +174,9 @@
     body: `
       Riley,
       Your account had irregularities that I noticed during my compliance audit.
-      They may be nothing more than errors, but I will need to examine them more closely.
+      They may be nothing more than errors, but I will need to examine them more closely. <br><br>
       
-      You may be contacted by one of our team, if we need more information from you regarding your account.
+      You may be contacted by one of our team, if we need more information from you regarding your account. <br><br>
       
       Victor
     `,
@@ -188,12 +186,13 @@
     email: "camila.juno@arcturus-secops.com",
     subject: "Login Account Compromised ",
     body: `
-        Hello Riley,
-        There has been a breach of your account. Please immediately change your password. 
-        If you cannot update your password, please contact us right away to reset it.
-        Check any unusual changes in your account, including your company balance you received based on your performance review. 
+        Hello Riley,<br><br>
+        There has been a breach of your account. Please immediately change your password.
+        If you cannot update your password, please contact us right away to reset it. <br><br>
+        Check any unusual changes in your account, including your company balance you received based on your performance review. <br><br>
         
-        We, our information security department, cannot restore or return funds to your account if your balance or sensitive information is stolen; please be aware.
+        We, our information security department, cannot restore or return funds to your account 
+        if your balance or sensitive information is stolen; please be aware.<br><br>
         
         - IT Security Analyst Camila Juno
     `,
@@ -213,12 +212,14 @@
     email: "across1130@tmail.com",
     subject: "Help",
     body: `
-        Strangers came to my door tonight and they just knocked and asked if you were at home. I just answered no because I do not know who they are. 
-        What’s going on, can you tell me? I am really worried because they were quite creepy. They were fully dressed in black and did not blink at all. 
+        Strangers came to my door tonight and they just knocked and asked if you were at home. 
+        I just answered no because I do not know who they are. <br><br>
+
+        What’s going on, can you tell me? I am really worried because they were quite creepy. <br><br> They were fully dressed in black and did not blink at all. 
         I tried to tell them, “Please leave”. They just stayed there like that—they stood and looked like dolls or something like that. I mean 
-        I do not know what to do.
+        I do not know what to do.<br><br>
         
-        Please come home ASAP! No excuse at all!
+        Please come home ASAP! No excuse at all! <br><br>
       `,
   },
   15: {
@@ -226,14 +227,14 @@
     email: "tessa.rowe@wellmind-consulting.com",
     subject: "Past Due Bill",
     body: `
-    Hi Riley,   
+    Hi Riley,<br><br>
     I want to let you know that your balance has passed its due date because your insurance claim is not processed. 
-    Please contact your insurance to resolve your billing. 
-    Meanwhile, you can access your billing portal to make a payment plan, which you can avoid late penalty fees for late payment.
-    If you have any questions about this, feel free to contact me via phone or email. 
+    Please contact your insurance to resolve your billing. <br><br> 
+    Meanwhile, you can access your billing portal to make a payment plan, which you can avoid late penalty fees for late payment. <br><br>
+    If you have any questions about this, feel free to contact me via phone or email. <br><br>
 
-    Thank you,<br>
-    Dr. Tessa Rowe<br>
+    Thank you,<br><br>
+    Dr. Tessa Rowe<br><br>
     WellMind Consulting
   `,
   },
@@ -243,10 +244,10 @@
     subject: "About What You Said",
     body: `
     Riley,<br><br>
-    I have been thinking about the topic you brought up during our last session. 
-    It was nothing serious; you were doing it right. 
-    But, I want you to be aware that if your information is shared with me, I am obliged to keep our discussion confidential. 
-    I think you should not give up, and of course you can always seek support from me. I am always here.
+    I have been thinking about the topic you brought up during our last session. <br><br>
+    It was nothing serious; you were doing it right. <br><br>
+    But, I want you to be aware that if your information is shared with me, I am obliged to keep our discussion confidential. <br><br>
+    I think you should not give up, and of course you can always seek support from me. I am always here.<br><br>
 
     — Tessa
   `
@@ -256,12 +257,12 @@
     email: "rowan.pike@arcturus-security.com",
     subject: "Automated Alert Review",
     body: `
-      Riley,
+      Riley,<br><br>
       Your account for the usage of employee cards has been flagged by an automated detection system. 
-      I’ve cleared an alert, and it won’t escalate to compliance level. 
-      Your employee card will be put on a watchlist due to unusual activity. 
-      If you encounter any problems with this, there's no need to open a ticket. Just keep me informed if you require temporary access.
-      The issue has been resolved, and please refrain from bringing up any other issues in the future.
+      I’ve cleared an alert, and it won’t escalate to compliance level. <br><br>
+      Your employee card will be put on a watchlist due to unusual activity. <br><br>
+      If you encounter any problems with this, there's no need to open a ticket. Just keep me informed if you require temporary access.<br><br>
+      The issue has been resolved, and please refrain from bringing up any other issues in the future.<br><br>
       
       Rowan
       `,
@@ -271,30 +272,30 @@
     email: "ria.callow@arcturus-corp.com",
     subject: "Urgent: Read This",
     body: `
-      Something strange happened. I saw someone keep checking on you every time you came in every morning. 
-      You didn’t do anything… right? I mean, you wouldn’t…, so I did not tell them anything when they asked me.
+      Something strange happened. I saw someone keep checking on you every time you came in every morning. <br><br>
+      They asked me questions about you. Like, what time do you come in, where do you usually go during break time, 
+      and if you work overtime often. <br><br>
+      You didn’t do anything… right? I mean, you wouldn’t…, so I did not tell them anything when they asked me. <br><br>
       
-      But, they sent me a file and asked me to forward it to you. I did not open it, but I got the feeling that this is too suspicious.
-      Lately, something in our workplace is strange. I mean I can’t describe it at all. Especially our veteran employee….He kind of freaked me out. 
-      He kept telling us that we were not safe.
+      But, they sent me a file and asked me to forward it to you. I did not open it, but I got the feeling that this is too suspicious.<br><br>
+      Lately, something in our workplace is strange. I mean I can’t describe it at all. Especially our veteran employee….He kind of freaked me out.<br><br>
+      He kept telling us that we were not safe.<br><br>
       
-      Probably just gibberish. But, just be safe.
+      Probably just gibberish. But, just be safe.<br><br>
       
       - Ria
       `,
-    attachment: "attachments/urgent_read_this.txt",
-    attachmentName: "urgent_read_this.txt",
   },
   19: {
     sender: "Victor Haines",
     email: "v.haines@arcturus-corp.com",
     subject: "Compliance Review",
     body: `
-         Riley,
+         Riley,<br><br>
          I am obligated to let you know that the files you accessed last month are currently being examined internally. This notice does not imply misconduct. 
-         You may be contacted by one of us to request your statement on certain files.
+         You may be contacted by one of us to request your statement on certain files.<br><br>
          It is prohibited to alter or remove any departmental files during this period, as any attempt to do so will be detected and handled immediately.
-         If you believe someone else may have used your credentials, you should notify us immediately.
+         If you believe someone else may have used your credentials, you should notify us immediately.<br><br>
          
          - Victor, Compliance Officer at Arcturus Corporation
       `,
@@ -304,16 +305,17 @@
     email: "camila.juno@arcturus-secops.com",
     subject: "Account Suspended ",
     body: `
-        Hello Riley,
+        Hello Riley,<br><br>
         Your account was flagged immediately after our automated system detected illegal activity on our servers. 
-        Your account is currently suspended due to a security policy you have violated. 
-        You will not provide a temporary account based on your case. 
-        Following the review conducted by Arcturus SecOps, we found that you have accessed restricted materials multiple times according to your credentials that showed recorded logs of your activity.
+        Your account is currently suspended due to a security policy you have violated. <br><br>
+        You will not provide a temporary account based on your case. <br><br>
+        Following the review conducted by Arcturus SecOps, we found that you have accessed restricted materials multiple 
+        times according to your credentials that showed recorded logs of your activity.<br><br>
         
-        We do not disclose the nature of your access restricted materials, as they are only accessed by higher levels. 
+        We do not disclose the nature of your access restricted materials, as they are only accessed by higher levels. <br><br>
         Please do not attempt to access, log in, reset the password, or anything related to the employee access system. 
-        Any unusual activity will be recorded and may be used against your case.
-        This message serves as a confirmation of your case currently under ongoing investigation.
+        Any unusual activity will be recorded and may be used against your case.<br><br>
+        This message serves as a confirmation of your case currently under ongoing investigation.<br><br>
         
         - IT Security Analyst Camila Juno
   `,
@@ -333,13 +335,13 @@
     email: "across1130@tmail.com",
     subject: "Why Did You Do It?!",
     body: `
-        I will keep in short, since you are busy and have urgent tasks or whatever that is.    
-        You told me about your concern….that is too dangerous. You need to think about your life and mine too. 
+        I will keep in short, since you are busy and have urgent tasks or whatever that is.<br><br>    
+        You told me about your concern….that is too dangerous. You need to think about your life and mine too. <br><br>
         
-        Did you not care about me at all? At least an ounce? No? Tell me.
-        I understand your morals, but that is not right. I mean they could do anything. Just like strangers came to our house. 
+        Did you not care about me at all? At least an ounce? No? Tell me.<br><br>
+        I understand your morals, but that is not right. I mean they could do anything. Just like strangers came to our house. <br><br>
         
-        I am sorry, I can’t stay here. God, they are here. 
+        I am sorry, I can’t stay here. God, they are here.<br><br>
         
         Bye
       `,
@@ -351,10 +353,10 @@
     body: `
         Riley,<br><br>
         
-        Do not send me any more documents. I should not have opened or seen the first one.
-        I deleted it immediately, but I can’t be involved in this.
+        Do not send me any more documents. I should not have opened or seen the first one.<br><br>
+        I deleted it immediately, but I can’t be involved in this.<br><br>
         
-        Please — whatever you’re trying to do, be careful.
+        Please — whatever you’re trying to do, be careful.<br><br>
         
         — T
         `,
@@ -365,10 +367,10 @@
     subject: "Patient Notice",
     body: `
         Riley,<br><br>
-        I am sorry that I cannot promise you at this time. I am ending our sessions and destroying our confidential information. 
-        Please stop contacting me, I have my life and I do not want to be involved with your problems.
+        I am sorry that I cannot promise you at this time. I am ending our sessions and destroying our confidential information. <br><br>
+        Please stop contacting me, I have my life and I do not want to be involved with your problems.<br><br>
         
-        If you persist in coming to my office, I have the right to evict you, beside you are not my guest anymore.
+        If you persist in coming to my office, I have the right to evict you, beside you are not my guest anymore.<br><br>
         
         — Dr. Rowe
         `,
@@ -400,11 +402,15 @@
         ${email.attachment ? `
           <hr>
           <p><strong>Attachment:</strong></p>
-          <a href="${email.attachment}" download="${email.attachmentName}" class="btn btn-outline-primary">
-            <i class="mdi mdi-download"></i> Download File
-          </a>
+
+          <iframe src="${email.attachment}" width="100%" height="500px"></iframe>
+
         ` : ""}
       </div>
     `;
     });
   });
+
+          //   <a href="${email.attachment}" download="${email.attachmentName}" class="btn btn-outline-primary">
+          //   <i class="mdi mdi-download"></i> Download File
+          // </a>
