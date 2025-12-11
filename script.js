@@ -25,7 +25,7 @@
     email: "rowan.pike@arcturus-security.com",
     subject: "Quick Check-In",
     body: `
-            Hi, <br>br>
+            Hi, <br><br>
             I noticed a small discrepancy in last week’s badge access logs and wanted to double-check. <br><br> 
             Your ID pinged near the West Maintenance Wing at 20:45 on Thursday. <br><br> 
             Probably just a scanner glitch — those readers misfire all the time. <br>br>
@@ -40,10 +40,10 @@
     email: "ria.callow@arcturus-corp.com",
     subject: "Lunch Tomorrow?",
     body: `
-            Hey! Haven’t seen you around much this week, is everything okay? 
-            I was going to ask you if you wanted to grab lunch tomorrow like we planned. 
-            If you are busy, no worries! You can always find me in my favorite break spot!
-            Text me if that’s easier.
+            Hey! Haven’t seen you around much this week, is everything okay? <br><br>
+            I was going to ask you if you wanted to grab lunch tomorrow like we planned.  <br><br>
+            If you are busy, no worries! You can always find me in my favorite break spot! <br><br>
+            Text me if that’s easier. <br><br>
             -Ria
       `,
   },
@@ -56,11 +56,11 @@
 
             This is a friendly reminder that your account password has not been 
             updated in over 90 days. For security compliance, please complete your 
-            password rotation by the end of the week.
+            password rotation by the end of the week. <br><br>
 
-            If you’ve already updated it, you may disregard this message.
+            If you’ve already updated it, you may disregard this message. <br><br>
 
-            Best Regards,
+            Best Regards,<br><br>
             Victor Haines
             Compliance Officer
       `,
@@ -72,13 +72,13 @@
     body: `
             Hi,
 
-            I noticed your workstation hasn't installed last week's security patch yet. 
+            I noticed your workstation hasn't installed last week's security patch yet. <br><br>
             It's not a big deal — a few machines missed the update because of a server 
-            hiccup — but I wanted to give you a heads up.
+            hiccup — but I wanted to give you a heads up. <br><br>
 
             When you get the chance, restart your machine so the patch can finish.
 
-            Thanks,
+            Thanks, <br><br>
             Camila
             IT Security Analyst
       `,
@@ -99,9 +99,10 @@
     email: "across1130@tmail.com",
     subject: "We Need to Talk",
     body: `
-    You keep saying you're busy with work, even though you can request a leave. I do not understand why you keep avoiding me like this. If you keep doing this, I do not know what else I will do, like leave you here. 
+    You keep saying you're busy with work, even though you can request a leave. I do not understand why you keep avoiding me like this. <br><br>
+    If you keep doing this, I do not know what else I will do, like leave you here. <br><br>
 
-    I am trying to understand you, okay? Just a simple conversation is enough. 
+    I am trying to understand you, okay? Just a simple conversation is enough. <br><br>
 
     I will be away for work. Text me if you are home. We can talk later when we have time.
       `,
@@ -114,7 +115,7 @@
     Hi Riley,<br><br>
 
     I wanted to follow up because you've missed several sessions in the past week, and I’m concerned. 
-    You also mentioned your need for medication. I am afraid not since I am not a psychiatrist. <br>br>
+    You also mentioned your need for medication. I am afraid not since I am not a psychiatrist. <br><br>
 
     Let me know how you're doing. I'm really worried about you. You can always ask for my referral to obtain medication. 
     Please remember that your discussion is significant.
@@ -125,7 +126,7 @@
     
     Please at least let me know you sound safe, okay?
 
-    Take care,<br>
+    Take care,<br><br>
     Dr. Tessa Rowe
   `,
   },
@@ -143,9 +144,9 @@
     Here’s a reminder to keep your new card secured at all times and report any unusual activity immediately.<br><br>
     Please note that your request for a replacement employee ID card has been recorded. Your limit of requests for this is up to 2 per year.
     
-    If you have any questions or have concerns with using your employee card, please do not hesitate to contact our Arcturus Security team.
+    If you have any questions or have concerns with using your employee card, please do not hesitate to contact our Arcturus Security team. <br><br>
     
-    Best Regards,
+    Best Regards,<br><br>
     Rowan
   `,
   },
@@ -163,7 +164,7 @@
       Why don’t you divorce them? I mean they are pretty bad. They should be understandable about your work. 
       Wouldn't it be better if you told them the truth?
       
-      Ah, I gotta work on my assignment since it is overdue!!! Message me later when you get off work! 
+      Ah, I gotta work on my assignment since it is overdue!!! Message me later when you get off work! <br><br>
       
       - Ria
     `,
@@ -373,7 +374,6 @@
         `,
   }
 };
-
 
   const mailItems = document.querySelectorAll(".mail-list");
   const readingPane = document.getElementById("readingPane");
