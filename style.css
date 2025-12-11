@@ -1,8 +1,6 @@
 /* MIT License - 
 Template Source: https://www.bootdey.com/snippets/view/bs4-email-view  */
 
-
-/* Global Styles */
 body{
     margin-top:20px;
     background: #eee;
@@ -25,23 +23,26 @@ html {
   position: relative;
   display: -webkit-flex;
   display: flex;
-  -webkit-align-items: center;
   align-items: center;
   -webkit-justify-content: space-between;
   justify-content: space-between;
 }
 
-/* Changed color from #464dee to #303a40 for better readability sidebar*/
 .email-wrapper .mail-sidebar .menu-bar .menu-items li a {
   color: #303a40;
-  font-size: 0.75rem;
+  font-size: 12px;
   text-decoration: none;
 }
 
 .email-wrapper .mail-sidebar .menu-bar .menu-items li a i {
   margin-right: 8px;
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   line-height: 1.5;
+}
+
+.email-wrapper .mail-sidebar .menu-bar .menu-items li:hover {
+  background: #f5f7fa;
+  border-radius: 4px;
 }
 
 .email-wrapper .mail-sidebar .menu-bar .menu-items li.active {
@@ -124,9 +125,9 @@ html {
 
 /* Mail List container */
 .mail-list-container {
-  max-height: calc(100vh - 140px); /* leave space for top padding/search */
-  overflow-y: auto;                 /* enable vertical scroll */
-  overflow-x: hidden;               /* prevent sideways scroll */
+  max-height: calc(100vh - 140px); 
+  overflow-y: auto;                
+  overflow-x: hidden;               
 }
 
 .mail-list {
