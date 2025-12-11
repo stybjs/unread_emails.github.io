@@ -1,0 +1,156 @@
+<!-- MIT License - Template Source: https://www.bootdey.com/snippets/view/bs4-email-view -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Email UI</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.7.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="content-wrapper">
+    <div class="email-wrapper wrapper">
+      <div class="row align-items-stretch">
+
+        <!-- SIDEBAR -->
+        <div class="mail-sidebar d-none d-lg-block col-md-2 pt-3 bg-white">
+          <div class="menu-bar">
+            <ul class="menu-items">
+              <li class="compose mb-3">
+                <button class="btn btn-primary btn-block">Compose</button>
+              </li>
+              <li>
+                <a href="./index.html">
+                  <i class="mdi mdi-email-outline"></i> Inbox </a>
+                <span class="badge badge-pill badge-success">24</span>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="mdi mdi-share"></i>Sent</a>
+              </li>
+              <li class="active">
+                <a href="./draft.html">
+                  <i class="mdi mdi-file-outline"></i>Draft</a>
+                <span class="badge badge-pill badge-warning">2</span>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="mdi mdi-upload"></i>Outbox</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="mdi mdi-star-outline"></i>Starred</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="mdi mdi-delete"></i>Trash</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mail-list-container col-md-3 pt-4 pb-4 border-right bg-white">
+          <div class="border-bottom pb-4 mb-3 px-3">
+            <div class="form-group">
+              <input class="form-control w-100" type="search" placeholder="Search mail">
+            </div>
+          </div>
+
+          <div class="mail-list" data-id="1">
+            <div class="form-check"></div>
+            <div class="content">
+              <p class="sender-name">To: Adrian Cross</p>
+              <p class="message_text">I am sorry for not able...</p>
+            </div>
+            <div class="details">
+              <i class="mdi mdi-star-outline"></i>
+            </div>
+          </div>
+
+          <div class="mail-list" data-id="2">
+            <div class="form-check"></div>
+            <div class="content">
+              <p class="sender-name">To: Rowan Pike</p>
+              <p class="message_text">I noticed a small...</p>
+            </div>
+            <div class="details">
+              <i class="mdi mdi-star-outline"></i>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="mail-view d-none d-md-block col-md-9 col-lg-7 bg-white" id="readingPane">
+          <div class="p-5 text-muted text-center">
+            <h5>Select an email to open</h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+      const emailData = {
+  1: {
+    sender: "Adrian Cross",
+    email: "across1130@tmail.com",
+    subject: "Apology",
+    body: `
+    I am sorry for not able to be there. If you find this message then I am alive and sound well.<br><br>
+
+    Please remember, never trust anyone around you. They might be working for them. Can't message you anymore, they are watching me closely.<br><br>
+
+    Everything I told you and my identity are all lies to protect you. You have to stay strong and keep moving forward. Find the hidden USB I left for you.<br><br>
+    Take care,<br><br>
+    Adrian
+      `,
+  },
+    2: {
+        sender: "Rowan Pike",
+        email: "
+};
+
+  const mailItems = document.querySelectorAll(".mail-list");
+  const readingPane = document.getElementById("readingPane");
+
+  mailItems.forEach(item => {
+    item.addEventListener("click", () => {
+      const prev = document.querySelector('.mail-list.active');
+      if (prev) {
+        prev.classList.remove('active');
+      }
+
+      item.classList.add("active");
+
+      const id = item.getAttribute("data-id");
+      const email = emailData[id];
+
+      readingPane.innerHTML = `
+      <div class="p-4">
+        <h4>${email.subject}</h4>
+        <p><strong>From:</strong> ${email.sender} &lt;${email.email}&gt;</p>
+        <hr>
+        <p>${email.body}</p>
+
+        ${email.attachment ? `
+          <hr>
+          <p><strong>Attachment:</strong></p>
+          <a href="${email.attachment}" download="${email.attachmentName}" class="btn btn-outline-primary">
+            <i class="mdi mdi-download"></i> Download File
+          </a>
+        ` : ""}
+      </div>
+    `;
+    });
+  });
+
+</script>
+</body>
+</html>
